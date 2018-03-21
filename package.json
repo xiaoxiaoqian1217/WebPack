@@ -1,0 +1,30 @@
+{
+  "name": "webPack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxiaoqian1217/webPack-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoxiaoqian1217/webPack-/issues"
+  },
+  "homepage": "https://github.com/xiaoxiaoqian1217/webPack-#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "bable-loader": "0.0.1-security",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
