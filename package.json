@@ -3,6 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.0.7",
+    "webpack": "^3.11.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack"
@@ -17,14 +33,5 @@
   "bugs": {
     "url": "https://github.com/xiaoxiaoqian1217/webPack-/issues"
   },
-  "homepage": "https://github.com/xiaoxiaoqian1217/webPack-#readme",
-  "devDependencies": {
-    "html-webpack-plugin": "^3.0.7",
-    "webpack": "^3.11.0"
-  },
-  "dependencies": {
-    "bable-loader": "0.0.1-security",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  }
+  "homepage": "https://github.com/xiaoxiaoqian1217/webPack-#readme"
 }
